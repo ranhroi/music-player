@@ -7,7 +7,8 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    background-image: linear-gradient(180deg, rgba(191,57,137,1) 0%, rgba(9,107,222,1) 
 li {
     list-style: none;
 }
@@ -406,7 +407,7 @@ li {
 
 .song:hover,
 .song.active {
-    background-color: #f6f6f6;
+    background-color: rgba(191,57,137,1);
 }
 
 .song-thumbnail {
@@ -432,16 +433,15 @@ li {
 .song-info {
     flex: 1;
 }
-
 .song-name {
     font-size: 17px;
     line-height: 1.5;
-    color: #906;
-    text-shadow: 0 1px 2px white;
+    color: white;
+    text-shadow: 0 1px 2px black;
 }
-
 .song-artist {
     font-size: 12px;
+    color: bisque;
 }
 
 .song-option {
@@ -456,6 +456,7 @@ li {
 
 .song-option>.icon-option {
     opacity: .7;
+    color:white
 }
 
 .song-option:hover {
