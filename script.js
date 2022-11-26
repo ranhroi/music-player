@@ -105,6 +105,7 @@ const appMusic = {
     isRepeat: false,
     iScrubbing: false,
     isDuration: 10000,
+    isVolume:50,
 
     //Get Item localStorage
     getLocalStorage: JSON.parse(localStorage.getItem(APP_MUSIC_DATA)) || {},
