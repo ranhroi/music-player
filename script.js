@@ -470,6 +470,11 @@ const appMusic = {
 
         };
 
+
+        headerLeftBtn.onclick = () => {
+            playlist.classList.toggle("isPlaylist")
+        }
+
         //Oder Song
         playlist.onclick = (e) => {
             let nodeIndex;
